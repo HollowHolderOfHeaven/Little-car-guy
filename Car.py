@@ -29,18 +29,17 @@ class Car:
         motor1Enable.freq(1000)
 
 
-        motor1Enable.duty_u16(65535)
-        motor1PositivePin.off()
-        motor1Negativepin.on()
+       
 
-        #Setting speed of the 2nd motor
-        motor2Enable.freq(1000)
-
-
+        #2nd motor code pins
         motor2Enable.duty_u16(65535)
         motor2PositivePin.off()
         motor2Negativepin.on()
-
+        
+        #Setting speed of the 2nd motor
+        motor2Enable.freq(1000)
+        
+        
         #temporary code to turn off motors after 5 seconds for testing
         sleep(5)
 
