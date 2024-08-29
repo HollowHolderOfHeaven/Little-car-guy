@@ -12,5 +12,8 @@
     ],
     "python.analysis.extraPaths": [
         "~/.micropico-stubs/included"
-    ]
+    ],
+    "workbench.preferredLightColorTheme": "Default High Contrast",
+    "workbench.preferredDarkColorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Default High Contrast"
 }
